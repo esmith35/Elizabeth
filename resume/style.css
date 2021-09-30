@@ -1,5 +1,10 @@
 /*Main Style*/
 
+#container {
+  width: 100%
+  max-width: 1200px;
+  margin: 0 auto;
+}
 body {
   font-family: 'open-sans', arial, sans-serif;
   font-size: 1em;
@@ -7,11 +12,15 @@ body {
   font-weight:400;
 }
 
-h1 {
+#name {
   font-size:3em;
   text-transform:uppercase;
   text-align:center;
   color:#33485e;
+  border-bottom:2px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 strong {
@@ -20,11 +29,17 @@ strong {
   font-size:1.5em;
 }
 
-h2 {
+.sectionheader {
   font-size:1.5em;
   text-transform:uppercase;
   background-color:#33485e;
   color:#fff;
+  margin-bottom:10px;
+  margin-top:20px;
+  margin-left:0px;
+  margin-right:0px;
+  width:70%;
+  min-width:300px;
 }
 
 h3 {
