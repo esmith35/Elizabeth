@@ -42,18 +42,22 @@ strong {
   min-width:300px;
 }
 
-h3 {
+.jobtitle {
   font-weight:600;
   font-size:2em;
 }
 
-h4 {
+.organization {
   font-size:1.5em;
 }
 
-h5 {
+.date {
   font-style:italic;
   font-size:1em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 ul {
