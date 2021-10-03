@@ -23,10 +23,16 @@ body {
   margin: 0 auto;
 }
 
-strong {
+#title {
   color:#33485e;
   text-transform:uppercase;
   font-size:1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .sectionheader {
@@ -62,4 +68,13 @@ strong {
 
 ul {
   font-size:1.5em;
+}
+.menu {
+  display: inline;
+}
+#degrees {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
