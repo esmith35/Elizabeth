@@ -1,0 +1,112 @@
+/*Main Style*/
+
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+body {
+  font-family: 'open-sans', arial, sans-serif;
+  font-size: 1em;
+  color:#444;
+  font-weight:400;
+}
+
+#name {
+  font-size:3em;
+  text-transform:uppercase;
+  text-align:left;
+  color:#00000;
+  border-bottom:3px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+}
+
+#title {
+  color:#00000;
+  font-size:1em;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: 'EB Garamond', serif;
+}
+
+#title2 {
+  color: #00000;
+  font-size: 1em;
+  text-align: left;
+  font-family: 'EB Garamond', serif;
+  margin-top: 0px;
+}
+
+.sectionheader {
+  font-size:1.5em;
+  text-transform:uppercase;
+  color:#00000;
+  margin-bottom:10px;
+  margin-top:20px;
+  margin-left:0px;
+  margin-right:0px;
+  width:70%;
+  min-width:300px;
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+}
+
+.jobtitle {
+  font-weight:600;
+  font-size:1em;
+  font-family: 'roboto', sans-serif;
+}
+
+.organization {
+  font-size:1.5em;
+}
+
+.date {
+  font-style:italic;
+  font-size:1em;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+ul {
+  font-size:1em;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+}
+#degrees {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#do {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
