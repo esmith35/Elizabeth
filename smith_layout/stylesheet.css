@@ -1,0 +1,67 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+.masthead {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  background-color: #240189;
+}
+
+.publication {
+  font-family: 'Unica One', cursive;
+  font-size: 5em;
+  font-weight: bold;
+  color: white;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+padding-bottom: 50px;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+p {
+  font-family: Georgia, serif;
+}
+
+blockquote {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.5em;
+  margin: 0 auto;
+  text-align: center;
+  color: #240189;
+  display: block;
+  border-top: solid 2px #ADADAD;
+  border-bottom: solid 2px #ADADAD;
+}
+
+.bottom {
+  border-bottom: solid 2px #ADADAD;
+  padding-bottom: 25px;
+}
+
+h4 {
+  font-family: Helvetica, sans-serif;
+  font-weight: 600px;
+}
