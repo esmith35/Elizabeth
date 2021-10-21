@@ -1,0 +1,136 @@
+#container {
+  margin: 0 auto;
+  width: 100%;
+}
+/* topper begin */
+.jumbotron {
+  color: white;
+  background-image: url("file:///Users/edgarsmith/Desktop/Elizabeth-Smith-Jour352/midterm/field.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-bottom: 50px;
+}
+
+.display-4 {
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 400px;
+  font-size: 9em;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+#tagline {
+  color: #1A5276;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+/* topper end */
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 50px;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+#byline {
+  font-family: Helvetica, Arial, sans-serif;;
+  font-size: 10px;
+  font-style: italic;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+#main {
+  padding: 20px;
+  max-height: 700px;
+  display: block;
+
+
+}
+
+img {
+  max-height: 500px;
+  width: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.trophy {
+  max-height: 900px;
+}
+
+.quote {
+  text-align: center;
+  font-size: 3em;
+  display: block;
+  color: #424949;
+}
+
+#block {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #1A5276;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: "IBM Plex Serif", serif;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #1A5276;
+  color: #424949;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: "IBM Plex Serif", serif;
+  font-size: .5em;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.graphic {
+  max-height: 900px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
+}
+
+.portrait {
+  max-height: 1500px;
+  padding: 25px;
+}
+
+.links {
+  font-family: Helvetica, Arial, sans-serif;
+  padding-left: 10px;
+}
+
+.bottom {
+  font-size: 2em;
+  text-align: center;
+  display: block;
+}
