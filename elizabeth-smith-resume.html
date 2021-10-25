@@ -17,10 +17,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- font EB Garamond -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <meta name="description" content="Merrill College of Journalism, UMD">
+
+    <meta name="author" content="Elizabeth Smith's Resume">
+
+
+
+    <!-- Bootstrap CSS and JavaScript -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
   </head>
 
@@ -28,61 +37,104 @@
 
 <div id="container">
 
+<!-- topper starts here -->
+          <div class="jumbotron jumbotron-fluid">
+            <div class="topper">
+              <h1 class="name">Elizabeth Smith</h1>
+              <p id="tagline">Journalism
+                  <br>
+                 Criminology & Criminal Justice</p>
+            </div>
 
-      <div id="name">Elizabeth Smith</div>
-
-      <div id="title">Journalism</div>
-      <div id="title2">  Criminology & Criminal Justice</div>
-
-
-
-
-  <!--
-  <img src="myheadshot.jpg" alt="Profile Picture" width="300px"/>
-  -->
-
-  <!-- contact details -->
-    <ul class="menu">
-      <li>esmith35@umd.edu</li>
-      <li><a href="https://www.linkedin.com/in/elizabeth-smith-124b0621b/" target="_blank">LinkedIn</a></li>
-      <li><a href="https://twitter.com/lizr30" target="_blank">Twitter</a></li>
-      <li><a href="https://github.com/esmith35" target="_blank">GitHub</a></li>
-    </ul>
+            <div class="row fixed-bottom">
+              <div class="green col-md-4"><a href="#about">About</a></div>
+              <div class="gray col-md-4"><a href="#experience">Experience</a></div>
+              <div class="green col-md-4"><a href="#skills">Skills</a></div>
+            </div>
+          </div>
 
 
   <!-- mission statement -->
-    <p class="top">I am a student at the University of Maryland pursuing a B.A. in journalism with a second major in criminology and criminal justice.</p>
+    <div id="about">
+      <div class="bio">Get to know me!</div>
+        <br>
+        <br>
+        <br>
+         <div>
+          <img src="resume-project/myheadshot.jpg" alt="Profile Picture" width="300px"/>
+          <p class="me"><i class="bi bi-play-fill"></i>I am a student at the University of Maryland pursuing a B.A. in journalism with a second major in criminology and criminal justice.
+          <br>
+          <!-- <i class="bi bi-play-fill"></i>I am expected to graduate in May of 2023 and plan to pursue graduate school to further my studies.</p> -->
+        </div>
+        <!-- contact details -->
+          <ul class="menu">
+            <li><button type="button" class="btn btn-light"><a class="contact" href="esmith35@umd.edu">Email</a></li>
+            <li><button type="button" class="btn btn-light"><a class="contact" href="https://www.linkedin.com/in/elizabeth-smith-124b0621b/" target="_blank">LinkedIn</a></button></li>
+
+            <li><button type="button" class="btn btn-light"><a class="contact" href="https://twitter.com/lizr30" target="_blank">Twitter</a></button></li>
+
+            <li><button type="button" class="btn btn-light"><a class="contact" href="https://github.com/esmith35" target="_blank">GitHub</a></li>
+          </ul>
+      </div>
 
   <!-- experience -->
-    <div class="sectionheader">Experience</div>
+    <div id="experience">
+      <div class="sectionheader">Experience</div>
 
-      <div class="jobtitle">Reporting Intern</div>
-      <div class="organization">Sanpete News Company</div>
-      <div class="date">June 2021 - August 2021</div>
-      <p class="description">Gathered information, conducted interviews and wrote stories for the company’s two weekly newspapers.  Covered local government and community events.</p>
+        <div class="jobtitle">Reporting Intern</div><div class="date">June 2021 - August 2021</div>
+        <div class="organization">Sanpete News Company</div>
+
+        <p class="description">Gathered information, conducted interviews and wrote stories for the company’s two weekly newspapers.  Covered local government and community events.</p>
+
+        <div class="examples">
+          <div class="work">Stories I've Written:</div>
+          <p class="worklinks">
+            <a class="worklinks" href="https://sanpetemessenger.com/lessons-of-compassion-and-patience/" target:"_blank">Lessons of Compassion and Patience</a>
+            <br>
+            <a class="worklinks" href="https://sanpetemessenger.com/senate-candidate-running-against-mike-lee-doesnt-like-partisan-ping-pong/" target="_blank">Senate Candidate Running Against Mike Lee Doesn't Like "Partisan Ping-Pong"</a>
+            <br>
+            <a class="worklinks" href="https://sanpetemessenger.com/dup-dedicates-new-monument/" target="_blank">DUP Dedicates New Monument</a>
+          </p>
+        </div>
 
 
-      <div class="jobtitle">Copy Editor</div>
-      <div class="organization">Stories Beneath the Shell</div>
-      <div class="date">October 2019 – May 2021</div>
-      <p class="description">Edited stories according to AP Style. Worked closely with reporters to research, fact check and compile stories on deadline.</p>
+        <div class="jobtitle">Copy Editor</div>
+        <div class="organization">Stories Beneath the Shell</div>
+        <div class="date">October 2019 – May 2021</div>
+        <p class="description">Edited stories according to AP Style. Worked closely with reporters to research, fact check and compile stories on deadline.</p>
 
-    <!-- education -->
-      <div class="sectionheader">Education</div>
-
-        <ul id="degrees">
-          <li>Bachelor of Arts – Journalism – University of Maryland, 2023</li>
-        </ul>
+        <div class="examples">
+          <div class="work">Stories I've Edited:</div>
+          <p class="worklinks">
+            <a class="worklinks" href="https://umdsbs.wordpress.com/2020/10/13/black-terps-matter-unites-local-college-community-with-black-film-night/" target="_blank">Black Terps Matter Unites Local College Community With Black Film Night</a>
+            <br>
+            <a class="worklinks" href="https://umdsbs.wordpress.com/2019/11/23/sga-hosts-town-hall-on-birth-control-use-and-access/" target="_blank">SGA Hosts Town Hall on Birth Control Use and Access</a>
+            <br>
+            <a class="worklinks" href="https://umdsbs.wordpress.com/2021/02/17/di-rosa-brothers-thrilled-by-major-league-soccer-opportunities/" target="_blank">Di Rosa Brothers Thrilled by Major League Soccer Opportunities</a>
+          </p>
+        </div>
+      </div>
 
       <!-- skills -->
-      <div class="sectionheader">Skills</div>
+      <div id="skills">
+        <div class="sectionheader">Skills, Interests & More!</div>
+            <div class="interests">Journalism-Related Skills</div>
+              <ul class="do">
+                <li>Copy editing according to AP Style</li>
+                <li>Photo editing with Adobe Bridge and Adobe Photoshop</li>
+                <li>Proficiency with DSLR cameras</li>
+              </ul>
 
-          <ul id="do">
-            <li>Copy editing according to AP Style</li>
-            <li>Photo editing with Adobe Bridge and Adobe Photoshop</li>
-            <li>Proficiency with DSLR cameras</li>
-          </ul>
+            <div class="interests">Interests and Hobbies</div>
+              <ul class="do">
+                <li>Landscape Photography</li>
+                <li>Creative Writing</li>
+              </ul>
+
+            <div class="interests">Check out my photograhy!</div>
+            
         </div>
+    </div>
 
   </body>
   </html>
