@@ -92,7 +92,7 @@ i {
 }
 
 #skills {
-  padding-bottom: 1200px;
+  padding-bottom: 15px;
 }
 
 .jobtitle {
@@ -148,10 +148,10 @@ ul {
 }
 
 .menu {
-  padding-top: 50px;
-  padding-left: 20px;
+  padding-top: 0;
+  padding-left: 0px;
   margin: 0;
-  text-align: left;
+  text-align: center;
 }
 
 .contact:link, .contact:hover, .contact:visited, .contact:active {
@@ -173,7 +173,10 @@ ul {
   margin-right: 0px;
   margin-left: 0px;
   font-family: Georgia, serif;
+  padding-bottom: 15px;
+  list-style-type: none;
 }
+
 
 .interests {
   font-weight:bold;
@@ -209,4 +212,30 @@ a:link, a:visited, a:hover, a:active {
   background-color: #989D9A;
   margin-top: 500px;
   text-align: center;
+}
+
+.sample {
+  padding: 5px;
+  display: inline-block;
+  height: auto;
+  width: 400px;
+  border: 3px solid #989D9A;
+  margin: 10px;
+}
+
+.photography {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'roboto', sans serif;
+  font-size: 2em;
+  background-color: #56706E;
+  color: white;
+}
+
+.footer {
+  font-family: Georgia, serif;
+  font-size: 10px;
+  padding-top: 0px;
+  padding-left: 5px;
 }
