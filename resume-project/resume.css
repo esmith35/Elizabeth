@@ -13,7 +13,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url("file:///Users/edgarsmith/Desktop/Elizabeth-Smith-Jour352/zion.jpg");
+  background-image: url("file:///Users/edgarsmith/Desktop/Elizabeth-Smith-Jour352/resume-project/zion.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -217,10 +217,9 @@ a:link, a:visited, a:hover, a:active {
 .sample {
   padding: 5px;
   display: inline-block;
-  height: auto;
-  width: 400px;
   border: 3px solid #989D9A;
   margin: 10px;
+  height: 100%;
 }
 
 .photography {
@@ -231,6 +230,10 @@ a:link, a:visited, a:hover, a:active {
   font-size: 2em;
   background-color: #56706E;
   color: white;
+}
+
+#bottom {
+  text-align: center;
 }
 
 .footer {
