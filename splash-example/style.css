@@ -1,0 +1,140 @@
+#container {
+  width: 70%;
+  margin: 0 auto;
+}
+/*tophat style*/
+
+.nav-logo {
+  color: #fff;
+  margin: 0 auto;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.red {
+  color: #f23030;
+}
+
+.bg-dark {
+  background-color:#000 !important;
+}
+
+/* splash */
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.overlay {
+  position:absolute;
+  width: 100%;
+  top: 20%;
+  background: #000;
+  opacity: .7;
+}
+
+.hero-hed {
+  padding-top: 10px;
+  margin: 0 auto;
+  font-size: 6em;
+  font-family: 'Shippori Antique', serif;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.hero-sub {
+  font-family: 'Merriweather', serif;
+  font-size: .25em;
+
+}
+
+/* pullquote */
+
+.quote {
+  font-family: 'Montserrat', sans-serif;
+  color: #f23030;
+  font-size:3em;
+  font-weight:700;
+  text-align: left;
+  padding: 15px 0px 15px 0px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.attribution {
+  font-size: .5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: #000;
+  text-align: left;
+}
+
+.headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Shippori Antique', sans-serif;
+}
+
+.byline {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.chapter {
+  font-family: 'Montserrat', serif;
+  font-weight: 700;
+  text-align: left;
+  font-size: 2em;
+}
+
+p {
+  font-family: georgia, serif;
+  line-height: 180%;
+}
+
+img {
+  height: auto;
+  display: block;
+}
+
+#photo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.caption {
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.col-md-4 {
+  text-align: center;
+  padding: 10px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+
+@media(max-width:550px) {
+  .hero-hed{
+    font-size: 2em;
+  }
+
+}
