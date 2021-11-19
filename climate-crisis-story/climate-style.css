@@ -1,5 +1,5 @@
-#container {
-  width: 70%;
+.container {
+  width: 50%;
   margin: 0 auto;
 }
 /*tophat style*/
@@ -97,17 +97,17 @@
 }
 
 .byline {
-  font-size: 1em;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
+  font-size: .75em;
+  font-family: georgia, serif;
+  text-align: left;
+
 }
 
 .chapter {
-  font-family: 'Montserrat', serif;
-  font-weight: 700;
+  font-family: 'Shippori Antique', sans-serif;
   text-align: left;
   font-size: 2em;
+  border-bottom: solid 3px #D55312;
 }
 
 p {
@@ -115,14 +115,28 @@ p {
   line-height: 180%;
 }
 
+.section-end {
+  padding-bottom: 35px;
+}
+
 img {
   height: auto;
   display: block;
 }
 
-#photo {
-  padding-top: 10px;
-  padding-bottom: 10px;
+.photo {
+  width: 100%;
+}
+
+.picture {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.quote-photo {
+  position: absolute;
+  left: 16px;
 }
 
 .caption {
