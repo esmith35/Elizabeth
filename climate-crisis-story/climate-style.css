@@ -24,8 +24,8 @@
 .jumbotron {
   background-color: #000;
   height: 700px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 .hero-container {
   position: relative;
@@ -37,6 +37,7 @@
   width: 100%;
 }
 
+/*
 .overlay {
   position:absolute;
   width: 100%;
@@ -45,6 +46,7 @@
   background: #f23030;
   opacity: .7;
 }
+*/
 
 .btn {
   padding-top: 40px;
@@ -53,16 +55,22 @@
 .hero-hed {
   padding-top: 10px;
   margin: 0 auto;
-  font-size: 6em;
+  font-size: 5em;
   font-family: 'Shippori Antique', serif;
   padding-bottom: 10px;
   color: #fff;
+  text-transform: uppercase;
+}
 
+#up {
+  color: #D55312;
+  display: inline;
 }
 
 .hero-sub {
   font-family: 'Merriweather', serif;
   font-size: .25em;
+
 
 }
 
