@@ -18,29 +18,14 @@
 #middle2 {
   width: 70%;
 }
-/*tophat style*/
 
-.nav-logo {
-  color: #fff;
-  margin: 0 auto;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.red {
-  color: #f23030;
-}
-
-.bg-dark {
-  background-color:#000 !important;
-}
 
 /* splash */
 
 .jumbotron {
   background-color: #000;
   height: 700px;
-  padding-top: 250px;
+  padding-top: 200px;
   padding-bottom: 250px;
 }
 .hero-container {
@@ -53,16 +38,6 @@
   width: 100%;
 }
 
-/*
-.overlay {
-  position:absolute;
-  width: 100%;
-  top: 30%;
-  bottom: 30%;
-  background: #f23030;
-  opacity: .7;
-}
-*/
 
 .btn {
   padding-top: 40px;
@@ -72,15 +47,16 @@
   padding-top: 10px;
   margin: 0 auto;
   font-size: 5em;
-  font-family: 'Shippori Antique', serif;
+  font-family: 'Shippori Antique', sans-serif;
   padding-bottom: 10px;
   color: #fff;
   text-transform: uppercase;
 }
 
-#up {
+#burning {
   color: #D55312;
   display: inline;
+  padding-right: 10px;
 }
 
 .hero-sub {
@@ -227,14 +203,45 @@ img {
   padding-left: 5px;
 }
 
+/* Harriett Alexander and Solomon Simmons photo package*/
+
+.solomon {
+  margin: 0 auto;
+}
+.harriett {
+  margin: 0 auto;
+}
+
+/* sidebar */
+.sidebar {
+  max-width: 60%;
+  border-top: 6px groove #D55312;
+  border-bottom: 6px groove #D55312;
+  margin: 0 auto;
+}
+
+.sidebar-title {
+  font-family: 'Shippori Antique', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 700;
+}
+
+.sidebar-description {
+  font-family: georgia, serif;
+  font-size: .75em;
+  text-align: center;
+}
+
+ul {
+  font-family: 'Shippori Antique', sans-serif;
+  font-size: 1em;
+}
+
 #section-start {
   padding-top: 35px;
 }
 
-.col-md-4 {
-  text-align: center;
-  padding: 10px;
-}
 
 #end {
   font-size: 2em;
@@ -256,8 +263,28 @@ img {
     font-size: 2em;
   }
 
-  .textbox {
-
+  .sidebar {
+    max-width: 500px;
   }
 
-}
+  .sidebar-title {
+    font-size: 1em;
+  }
+
+  ul {
+    font-size: .75em;
+  }
+
+  .textbox {
+    max-width: 250px;
+    top: 50px;
+    left: 50px;
+  }
+
+  .quote-photo {
+    font-size: 1em;
+  }
+
+  .attribution-photo {
+    font-size: .6em;
+  }
