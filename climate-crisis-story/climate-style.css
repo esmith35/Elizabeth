@@ -2,6 +2,18 @@
   width: 60%;
   margin: 0 auto;
 }
+
+#start {
+  width: 70%;
+}
+
+#middle {
+  width: 70%;
+}
+
+#middle1 {
+  width: 70%;
+}
 /*tophat style*/
 
 .nav-logo {
@@ -78,7 +90,7 @@
 .quote {
   font-family: 'Shippori Antique', sans-serif;
   color: #000;
-  font-size:3em;
+  font-size: 2em;
   text-align: center;
   padding: 15px 0px 15px 0px;
   border-top: 2px solid #D55312;
@@ -87,6 +99,7 @@
   margin-bottom: 20px;
   max-width: 70%;
   margin: 0 auto;
+  display: block;
 }
 
 
@@ -102,6 +115,23 @@
   text-align: center;
   font-size: .75em;
   color: #000;
+}
+/* graphics */
+.line-chart {
+  width: 80%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0 auto;
+}
+
+.bar-chart {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.map {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* text styling */
