@@ -288,3 +288,16 @@ ul {
   .attribution-photo {
     font-size: .6em;
   }
+
+  .photo {
+    width: 100%;
+  }
+
+  .headline {
+    font-size: 2em;
+    line-height: 1em;
+  }
+
+  .jumbotron {
+    height: 400px;
+  }
