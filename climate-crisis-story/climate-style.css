@@ -207,9 +207,17 @@ img {
 
 .solomon {
   margin: 0 auto;
+  font-size: 12px;
+  font-family: 'Shippori Antique', sans-serif;
+  display: block;
+  text-align: center;
 }
 .harriett {
   margin: 0 auto;
+  font-size: 12px;
+  font-family: 'Shippori Antique', sans-serif;
+  display: block;
+  text-align: center;
 }
 
 /* sidebar */
