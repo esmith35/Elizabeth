@@ -1,0 +1,78 @@
+.navbar {
+  position: fixed;
+  top: 0;
+}
+
+#container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#container2 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.hero-container {
+  position: relative;
+  text-align: center;
+}
+
+.hero-hed {
+  color: #8f1b11;
+  font-size: 3em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  padding-top: 200px;
+}
+
+#hero-sub {
+  color: black;
+  font-size: .45em;
+  font-family: 'Bitter', serif;
+  font-style: italic;
+
+}
+
+.jumbotron {
+  height: 700px;
+  background-image: url('helmets.jpg');
+}
+
+.section {
+  text-align: left;
+  color: black;
+  font-family:'IBM Plex Sans', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  border-bottom: solid 3px #8f1b11;
+  padding-top: 100px;
+}
+
+#map {
+  width: 70%;
+  margin: 0 auto;
+  padding-left: 40px;
+
+}
+
+#chart {
+
+}
+
+#restart {
+  padding-top: 75px;
+}
+
+#end {
+  padding-bottom: 75px;
+}
+
+.row {
+  display: block;
+  width: 100% !important;
+}
+
+.caption {
+  font-family: 'Bitter', serif;
+}
