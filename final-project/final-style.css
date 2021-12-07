@@ -18,6 +18,21 @@
   margin: 0 auto;
 }
 
+#container4 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#container5 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#container6 {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .hero-container {
   position: relative;
   text-align: center;
@@ -25,15 +40,16 @@
 
 .hero-hed {
   color: #8f1b11;
-  font-size: 3em;
+  font-size: 5em;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700;
   padding-top: 200px;
+  text-shadow: 2px 2px #858585;
 }
 
 #hero-sub {
-  color: black;
-  font-size: .45em;
+  color: white;
+  font-size: 1em;
   font-family: 'Bitter', serif;
   font-style: italic;
 
@@ -41,7 +57,36 @@
 
 .jumbotron {
   height: 700px;
-  background-image: url('helmets.jpg');
+  background-color: black;
+
+}
+
+#to {
+  color: #858585;
+  display: inline;
+  font-size: .5em;
+  text-shadow: 0px 0px;
+}
+
+/* text styling */
+
+.headline {
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.byline {
+  font-size: 1em;
+  text-align: left;
+  font-family: 'Bitter', serif;
+  font-weight: 400;
+}
+
+#first {
+  padding-top: 10px;
 }
 
 .section {
@@ -53,16 +98,23 @@
   border-bottom: solid 3px #8f1b11;
   padding-top: 100px;
 }
-
+/* graphs styling */
 #map {
-  width: 70%;
+  min-width: 90%;
   margin: 0 auto;
-  padding-left: 40px;
-
+  padding-left: 175px;
 }
 
 #chart {
+  min-width: 90%;
+  margin: 0 auto;
+  padding-left: 175px;
+}
 
+#column-chart {
+  min-width: 90%;
+  margin: 0 auto;
+  padding-left: 175px;
 }
 
 .restart {
@@ -94,4 +146,72 @@ img {
   max-width: 500px;
   margin: 0 auto;
   padding-top: 5px;
+}
+
+/* pullquote */
+.quote {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #000;
+  font-size: 2em;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+  border-top: 3px solid #858585;
+  border-bottom: 3px solid #858585;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.attribution {
+  font-size: .4em;
+  font-family: 'Bitter', serif;
+  font-weight: 50;
+  color: #000;
+  text-align: center;
+}
+
+.icon {
+  text-align: center;
+  font-size: 1em;
+  color: #8f1b11;
+}
+
+#pull-restart {
+  padding-top: 75px;
+}
+
+.gif {
+  width: 100%;
+}
+
+.gif-caption {
+  max-width: 100%;
+  text-align: left;
+  padding-left: 10px;
+  font-family: 'Bitter', serif;
+  font-size: .75em;
+  padding-top: 5px;
+}
+
+.carousel {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 60%;
+  margin: 0 auto;
+
+}
+
+.carousel-inner{
+  font-family: 'Bitter', serif;
+  color: black;
+  text-align: center;
+  max-width: 55%;
+  margin: 0 auto !important;
+}
+
+.bold {
+  font-weight: bold;
 }
