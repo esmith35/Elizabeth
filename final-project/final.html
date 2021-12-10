@@ -32,38 +32,26 @@
     <body>
         <!-- Navbar start-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar fixed-top navbar-light bg-light">
 
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">lll</a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Read
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="side-menu">
-              Menu
-              </button>
-              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                <div>
-                  <p>ADD SECTIONS HERE</p>
-                </div>
-              </div>
-              </div>
-            </li>
-
-
-        </div>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#first">The Debate</a></li>
+          <li><a class="dropdown-item" href="#second">Concern in Youth Football</a></li>
+          <li><a class="dropdown-item" href="#third">Are Concussions Really a Cause for Concern?</a></li>
+          <li><a class="dropdown-item" href="#fourth">Fisher's Fallacy</a></li>
+          <li><a class="dropdown-item" href="#fifth">The Future of Youth Football</a></li>
+        </ul>
       </div>
+
+        <span class="nav-logo">The Future of Football</span>
+
+
     </nav>
+
 
   <!-- Navbar end-->
 
@@ -129,9 +117,12 @@
       <p>High-impact sports occupy a different location in the landscape of risk. Their hazards are part of their attraction. We’ve come to realize that football is more dangerous than we thought—and yet we always thought it was dangerous. Players, coaches, and parents must now ask themselves a series of difficult questions with amorphous answers. How much risk is too much? How much scientific knowledge is enough, when the details are still emerging? How much do you have to know before making up your mind?</p>
 
 
-      <p class="section">Concern in Youth Football</p>
+      <p id="second" class="section">Concern in Youth Football</p>
 
       <p>ConcernedMom9 is a stay-at-home parent in a small rural town in the Midwest. Several years ago, she and her husband enrolled their son, a third grader, in youth tackle football. (Tackle-football leagues exist for children as young as five.) They knew football was a helmet-clashing, body-bruising sport. But, since it was being offered through school, they assumed that it would be low risk and played in an age-appropriate, minimally injurious way. They were, for the most part, unconcerned.</p>
+
+      <img class="tackle" src="tackle.jpeg" alt="youth tackle football" width="700px"/>
+      <p id="caption-tackle" class="caption"> Youth all over the U.S. participate in full-contact tackle football every year. (C. Watts | Flickr)</p>
 
       <p>That changed quickly. At practices, ConcernedMom9 saw how the coaches exhorted the boys to barrel into one another as forcefully as possible. Late one afternoon, during a tackling drill, she heard an ear- splitting crack: her son had smashed face masks with a larger opponent, bouncing backward. The back of his helmet struck the ground. It was his second helmet-to-helmet impact of the practice. A coach hauled him to his feet, but the boy, wailing in pain, was unable to walk off the field. No one stopped the practice or offered medical assistance. She watched in shock from the sidelines, unsure what to do.</p>
 
@@ -172,7 +163,7 @@
       <p>For now, these complexities make certain questions about the disease unanswerable. If subconcussive blows are the cause of C.T.E., how much impact is too much? How do the tau clumps relate to the clinical syndrome—do the lesions fully explain the mood and memory problems? (Probably not; other kinds of brain abnormalities, such as inflammation or damage to neural wiring from head injuries, may play a role.) Ideally, while trying to answer these questions, researchers would also mount a decades-long study in which they used sensors to measure football players’ exposure to head hits; they would scan the players’ brains monitor their health until they died, and then conduct an autopsy. Such a study would be extraordinarily expensive and time-consuming. There is nothing like it on the horizon.</p>
 
 
-      <p class="section">Are Concussions Really a Cause for Concern?</p>
+      <p id="third" class="section">Are Concussions Really a Cause for Concern?</p>
       <p class="end">The uncertainties in concussion and C.T.E. research are typical of any scientific investigation of human disease. They also provide an opportunity for those who want to defend football from its detractors. As the ESPN journalists Mark Fainaru-Wada and Steve Fainaru detail in their book “League of Denial,” from 2013, the N.F.L. attempted to discredit Omalu’s initial diagnosis of C.T.E., demanding that he retract his report. Beginning in 2003, the league's Mild Traumatic Brain Injury committee produced sixteen scientific papers that, among other things, shrugged off concussions as trivial injuries or suggested that, thanks to a “winnowing process” leading up to the big leagues, N.F.L. players might be less susceptible to traumatic brain injuries than people in the general population. Observers have argued that the N.F.L. was “manufacturing doubt” by financing skewed science. The N.F.L.—which maintains that the committee’s research “was consistent with the medical and scientific understanding of these complicated issues at the time”—argues that it has always sought to advance the science of head trauma.</p>
 
       <!-- pullquote -->
@@ -209,7 +200,7 @@
       <p>Giza occupies a middle ground in the world of C.T.E. research. He doesn’t deny that C.T.E. exists, and said that it’s “quite likely” that it’s triggered by brain injuries, but he is wary of media hype. In his view, analysis of C.T.E. has become polarized. “When we sort of force people to take sides one way or the other, it blurs our view of what the real truth is,” he said. On Twitter, meanwhile, his industry connections haven’t escaped notice. When, in a news story last year, Giza commented that the link between youth football and long-term brain injury is difficult to prove, a former professional hockey player named Daniel Carcillo, who is himself part of a class-action concussion lawsuit against the N.H.L., tweeted, “Can he be trusted?” (Giza and Carcillo have since made amends.)</p>
 
 
-      <p class="section">Fisher's Fallacy</p>
+      <p id="fourth" class="section">Fisher's Fallacy</p>
 
       <p>In the nineteen-fifties, an eminent statistician named Ronald Fisher argued that smoking didn’t cause lung cancer. Instead, he conjectured, an undiscovered third factor, perhaps genetic, both caused lung cancer and, coincidentally, drove people to crave smoking. Adam M. Finkel, an environmental-health scientist and expert on risk assessment at the University of Michigan School of Public Health, described this logic as “Fisher’s fallacy”: “It’s just a way to wave your hands around and ignore what’s in front of your eyes,” he told me. In Finkel’s view, many C.T.E. skeptics are waving their hands around. Some, for instance, have speculated that opioid abuse, not head trauma, may be the cause of the disease. There isn’t a lot of evidence to support that idea, but, for the moment, it’s impossible to disprove. It’s probable that, in the end, several factors will be found to contribute to C.T.E., because diseases are almost always multifactorial. But that still wouldn’t exonerate head injury as the major culprit.</p>
 
@@ -220,7 +211,7 @@
       <p>Parents trying to evaluate the risks of youth football might find themselves bouncing between these different views of disease—fielding advice from a clinician one day and a public-health advocate the next. On the Web site for Football Matters—a campaign started by the National Football Foundation—a section about C.T.E. is reprinted from a fact sheet prepared by a panel of neuropsychologists, most of them affiliated with professional or school sports teams and leagues; the site concedes that “it appears appropriate to take reasonable measures” to avoid head trauma, while noting that “no clear-cut, definitive cause and effect relationship has been established” between hits to the head and C.T.E. Meanwhile, last fall, the Concussion Legacy Foundation released a video titled “Tackle Can Wait.” The P.S.A. suggests that parents should look at youth football the same way they look at smoking—the video shows young players standing on the field and lighting up—and then warns that starting kids in tackle football at age five, rather than fourteen, leaves them ten times more likely to develop C.T.E. (It’s tough to know how to judge such a claim, since the absolute risks remain unknown.) In an Op-Ed anticipating the P.S.A., Robert Cantu, the foundation’s co-founder and a researcher at B.U., made a public-health argument: the Surgeon General, he wrote, should ban tackle football for young children.</p>
 
 
-      <p class="section">The Future of Youth Football</p>
+      <p id="fifth" class="section">The Future of Youth Football</p>
       <p class="end">In a now-classic bit, the comedian George Carlin undertook a comparison of baseball and football. Baseball, he noted, is played in a “park”; football, on a “gridiron.” Baseball starts “in the spring, the season of new life”; football begins “in the fall, when everything is dying.” The games have starkly different objectives. “In football, the object is for the quarterback, otherwise known as the field general, to be on target with his aerial assault, riddling the defense by hitting his receivers with deadly accuracy in spite of the blitz, even if he has to use the shotgun,” Carlin said. “With short bullet passes and long bombs, he marches his troops into enemy territory, balancing this aerial assault with a sustained ground attack which punches holes in the forward wall of the enemy’s defensive line.” The object in baseball, by contrast, is “to go home! And to be safe! . . . . Safe, at home!”</p>
     <!-- closing container for full screen gif -->
   </div>
@@ -258,12 +249,17 @@
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
             <div>
               <h5>Legislation</h5>
-              <p>Multiple states have tried or are currently trying to pass legislation that would limit youth tackle football. The following slides detail those bills.</p>
+              <p>Multiple states have tried or are currently trying to pass legislation that would limit youth tackle football. The following slides detail some of those bills.</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
@@ -285,8 +281,40 @@
           </div>
           <div class="carousel-item">
             <div>
+              <h5>California</h5>
+              <p><div class="bold">What would the bill do?:</div> Regulate youth tackle football by limiting full-contact practices and requiring training for coaches.
+                <br>
+                <div class="bold">Status:</div>In effect as of Jan. 1, 2021</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
               <h5>Maryland</h5>
               <p><div class="bold">What would the bill do?:</div> Ban tackle football, heading in soccer, and checking in lacrosse all before high school.
+                <br>
+                <div class="bold">Status:</div>Dead</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
+              <h5>Illinois</h5>
+              <p><div class="bold">What would the bill do?:</div> Ban tackle football for children under the age of 12.
+                <br>
+                <div class="bold">Status:</div>Dead</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
+              <h5>New Jersey</h5>
+              <p><div class="bold">What would the bill do?:</div> Ban tackle football for children under the age of 12.
+                <br>
+                <div class="bold">Status:</div>Dead</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
+              <h5>New York</h5>
+              <p><div class="bold">What would the bill do?:</div> Ban tackle football for children under the age of 12.
                 <br>
                 <div class="bold">Status:</div>Dead</p>
             </div>
@@ -303,10 +331,14 @@
       </div>
     <!-- carousel end -->
 
-      <p>This past fall, as football season got underway, ConcernedMom9 tweeted about news stories in which coaches claimed that changes to the game had made it safer than ever. “What would we expect coaches to claim?” she wrote. She questions whether local leagues are properly putting the safety reforms into practice. Over time, she has come to a new understanding of football’s risks. Research has been finding that head trauma is also a risk factor for Alzheimer’s, Parkinson’s, and other degenerative brain disorders; considering the medical history in her family tree, she wishes she’d known this before signing her son up for youth football. She reads new stories about serious injuries among professional and amateur players—concussions, spinal injuries, ruptured spleens—and thinks of how the perils of the sport now extend into the realm of the mind, pushing some former players into an irreversible fog of darkness and forgetting. “There’s enough carnage out there that, personally, I’m questioning what this game is doing in our public-school system without meaningful changes,” she said. The game hasn’t changed. She has.</p>
+      <p class="end">This past fall, as football season got underway, ConcernedMom9 tweeted about news stories in which coaches claimed that changes to the game had made it safer than ever. “What would we expect coaches to claim?” she wrote. She questions whether local leagues are properly putting the safety reforms into practice. Over time, she has come to a new understanding of football’s risks. Research has been finding that head trauma is also a risk factor for Alzheimer’s, Parkinson’s, and other degenerative brain disorders; considering the medical history in her family tree, she wishes she’d known this before signing her son up for youth football. She reads new stories about serious injuries among professional and amateur players—concussions, spinal injuries, ruptured spleens—and thinks of how the perils of the sport now extend into the realm of the mind, pushing some former players into an irreversible fog of darkness and forgetting. “There’s enough carnage out there that, personally, I’m questioning what this game is doing in our public-school system without meaningful changes,” she said. The game hasn’t changed. She has.</p>
 
     </div>
 
+    <!-- footer -->
+    <div class="footer">
+      <p class="year">2021</p>
+    </div>
 
 
 

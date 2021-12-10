@@ -1,6 +1,19 @@
-.navbar {
-  position: fixed;
-  top: 0;
+
+.nav {
+   margin: 0 auto;
+}
+.nav-logo {
+ margin: 5;
+ color: #8f1b11;
+ font-family: 'Bitter', serif;
+ text-transform: uppercase;
+ font-weight: 800;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+.dropdown {
+  padding-left: 10px;
 }
 
 #container {
@@ -43,7 +56,7 @@
   font-size: 5em;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700;
-  padding-top: 200px;
+  padding-top: 350px;
   text-shadow: 2px 2px #858585;
 }
 
@@ -56,7 +69,7 @@
 }
 
 .jumbotron {
-  height: 700px;
+  height: 850px;
   background-color: black;
 
 }
@@ -137,7 +150,10 @@
 img {
   display: block;
   margin: 0 auto;
+}
 
+.tackle {
+  padding-top: 15px;
 }
 
 .caption {
@@ -147,6 +163,12 @@ img {
   margin: 0 auto;
   padding-top: 5px;
 }
+
+#caption-tackle {
+  padding-bottom: 15px;
+  max-width: 700px;
+}
+
 
 /* pullquote */
 .quote {
@@ -214,4 +236,18 @@ img {
 
 .bold {
   font-weight: bold;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding-bottom: 10px;
+}
+
+.year {
+  margin: 0 auto;
+  padding-top: 5px;
 }
