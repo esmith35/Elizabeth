@@ -1,4 +1,4 @@
-
+/* navbar styling */
 .nav {
    margin: 0 auto;
 }
@@ -15,6 +15,7 @@
 .dropdown {
   padding-left: 10px;
 }
+
 
 #container {
   width: 70%;
@@ -46,6 +47,7 @@
   margin: 0 auto;
 }
 
+/*topper styling */
 .hero-container {
   position: relative;
   text-align: center;
@@ -111,6 +113,11 @@
   border-bottom: solid 3px #8f1b11;
   padding-top: 100px;
 }
+
+.bold {
+  font-weight: bold;
+}
+
 /* graphs styling */
 #map {
   min-width: 90%;
@@ -138,6 +145,7 @@
   padding-bottom: 75px !important;
 }
 
+/* photos */
 .grid-container {
   margin: 0 auto;
   width: 80%;
@@ -168,6 +176,20 @@ img {
   padding-bottom: 15px;
   max-width: 700px;
 }
+
+.gif {
+  width: 100%;
+}
+
+.gif-caption {
+  max-width: 100%;
+  text-align: left;
+  padding-left: 10px;
+  font-family: 'Bitter', serif;
+  font-size: .75em;
+  padding-top: 5px;
+}
+
 
 
 /* pullquote */
@@ -205,19 +227,7 @@ img {
   padding-top: 75px;
 }
 
-.gif {
-  width: 100%;
-}
-
-.gif-caption {
-  max-width: 100%;
-  text-align: left;
-  padding-left: 10px;
-  font-family: 'Bitter', serif;
-  font-size: .75em;
-  padding-top: 5px;
-}
-
+/* carousel */
 .carousel {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -234,9 +244,6 @@ img {
   margin: 0 auto !important;
 }
 
-.bold {
-  font-weight: bold;
-}
 
 .footer {
   background-color: black;
@@ -247,7 +254,32 @@ img {
   padding-bottom: 10px;
 }
 
+#dots {
+  font-size: 3em;
+  color: #8f1b11;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
 .year {
   margin: 0 auto;
   padding-top: 5px;
+}
+
+@media(max-width:500px) {
+  .nav {
+    width: auto;
+  }
+  .headline {
+    font-size: 2em;
+  }
+
+  .grid-container {
+    width: 60%;
+  }
+
+  .col-md-6 {
+    width: 20%
+  }
 }
