@@ -18,32 +18,32 @@
 
 
 #container {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
 #container2 {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
 #container3 {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
 #container4 {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
 #container5 {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
 #container6 {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -55,7 +55,7 @@
 
 .hero-hed {
   color: #8f1b11;
-  font-size: 5em;
+  font-size: 6em;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700;
   padding-top: 350px;
@@ -64,7 +64,7 @@
 
 #hero-sub {
   color: white;
-  font-size: 1em;
+  font-size: 1.25em;
   font-family: 'Bitter', serif;
   font-style: italic;
 
@@ -120,21 +120,22 @@
 
 /* graphs styling */
 #map {
-  min-width: 90%;
+  min-width: 60%;
   margin: 0 auto;
-  padding-left: 175px;
+  display: block;
+
 }
 
 #chart {
-  min-width: 90%;
+  min-width: 60%;
   margin: 0 auto;
-  padding-left: 175px;
+  display: block;
 }
 
 #column-chart {
-  min-width: 90%;
+  min-width: 60%;
   margin: 0 auto;
-  padding-left: 175px;
+  display: block;
 }
 
 .restart {
@@ -244,6 +245,12 @@ img {
   margin: 0 auto !important;
 }
 
+.source {
+  font-family: 'Bitter', serif;
+  padding-top:0;
+  font-size: .5em;
+}
+
 
 .footer {
   background-color: black;
@@ -268,8 +275,13 @@ img {
 }
 
 @media(max-width:500px) {
-  .nav {
-    width: auto;
+
+  .hero-hed {
+    font-size:4em;
+  }
+
+  #hero-sub {
+    font-size: 1em;
   }
   .headline {
     font-size: 2em;
@@ -279,7 +291,35 @@ img {
     width: 60%;
   }
 
-  .col-md-6 {
-    width: 20%
+  .pictures {
+    width: 70%;
+  }
+
+  #column-chart {
+    max-width: 60%;
+  }
+
+  #map {
+    max-width: 40%;
+    margin: auto;
+    display: block;
+  }
+
+  .quote {
+    font-size: 1em;
+  }
+
+  .carousel-inner {
+    max-width: 90%;
+  }
+
+  .tackle {
+    max-width: 70%;
+    padding-left: 5px;
+  }
+
+  #tackle-caption {
+    max-width: 70%;
+    display: block;
   }
 }
