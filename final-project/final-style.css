@@ -274,6 +274,7 @@ img {
   padding-top: 5px;
 }
 
+/* media queries -- below 500px*/
 @media(max-width:500px) {
 
   .hero-hed {
@@ -330,7 +331,7 @@ img {
   }
 }
 
-
+/*media queries below 768px*/
 @media(max-width:768px) {
   .pictures {
     max-width: 300px;
@@ -348,5 +349,21 @@ img {
 
   .quote {
     font-size: 1.25em;
+  }
+}
+
+/* media queries between 768px and 991px */
+@media only screen and (min-width:768px) and (max-width:991px) {
+  .tackle {
+    max-width: 80%;
+  }
+
+  .caption {
+    text-align: center;
+    font-size: .35em;
+  }
+
+  .pictures {
+    max-width: 70%;
   }
 }
