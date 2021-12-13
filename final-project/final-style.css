@@ -367,3 +367,16 @@ img {
     max-width: 70%;
   }
 }
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+  .tackle {
+    max-width: 80%;
+  }
+  .caption {
+    text-align: center;
+  }
+
+  .pictures {
+    max-width: 80%;
+  }
+}
