@@ -283,6 +283,7 @@ img {
   #hero-sub {
     font-size: 1em;
   }
+
   .headline {
     font-size: 2em;
   }
@@ -307,6 +308,11 @@ img {
 
   .quote {
     font-size: 1em;
+  }
+
+  .caption {
+    font-size: .5em;
+    max-width: 200px;
   }
 
   .carousel-inner {
