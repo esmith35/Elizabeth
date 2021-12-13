@@ -329,3 +329,24 @@ img {
     display: block;
   }
 }
+
+
+@media(max-width:768px) {
+  .pictures {
+    max-width: 300px;
+  }
+
+  .tackle {
+    max-width: 70%;
+  }
+
+  .caption {
+    font-size: .6em;
+    display: block;
+    text-align: center;
+  }
+
+  .quote {
+    font-size: 1.25em;
+  }
+}
